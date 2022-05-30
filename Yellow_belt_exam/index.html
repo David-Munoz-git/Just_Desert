@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Just Dessert</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <!-- nav bar start -->
+      <nav>
+        <div class="top-nav">
+          <h1>Just<span>Dessert</span></h1>
+          <div class="buttons">
+            <button onclick="remove(this)" class="left">Join</button>
+            <button class="right">Login</button>
+          </div>
+        </div>
+        <!-- bottom nav start -->
+        <div class="bottom-nav">
+          <div class="search">
+            <input class="search-bar" type="text" placeholder="SEARCH" id="search"><button onclick="choices()" class="go">GO</button>
+          </div>
+          <div>
+            <img src="./images/cake.png" alt="cake">
+            <p id="cake">Cake</p>
+          </div>
+          <div>
+            <img src="./images/cookie.png" alt="cookie">
+            <p id="cookies">Cookies</p>
+          </div>
+          <div>
+            <img src="./images/ice-cream.png" alt="ice cream">
+            <p id="IceCream">Ice Cream</p>
+          </div>
+          <div>
+            <img src="./images/pie.png" alt="Pie">
+            <p id="pie">Pie</p>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar end -->
+      <!-- ig feed start -->
+      <div class="ig-feed">
+        <!-- left feed start -->
+        <div class="left-feed">
+          <h2>Recipe of the Day</h2>
+          <img class="pie" src="./images/orange-tart.jpg" alt="orange pie">
+          <!-- bottom left feed start -->
+          <div class="bottom-left-feed">
+            <div class="inner-left">
+              <p>Orange Tea Jelly Tart</p>
+              <p>By: <a href="#">yuripiano</a></p>
+            </div>
+            <div class="inner-right">
+                <img class="heart" src="./images/heart.png" alt="heart" onclick="add1()">
+                <p id="likes">68</p>
+            </div>
+            <!-- bottom left feed end -->
+          </div>
+          <a href="#">See Full Recipe</a>
+        </div>
+        <!-- left feed end -->
+        <!-- right feed start -->
+        <div class="right-feed">
+          <h3>Recommended for you:</h3>
+          <!-- top right feed start -->
+          <div class="top-right-feed">
+            <div>
+              <img class="macarons-img" src="./images/macarons.jpg" alt="macarons">
+            </div>
+            <div class="bottom-container">
+              <div class="macarons-text">
+                <p>Macarons</p>
+                <p>By: <a href="#">EmilieW</a></p>
+              </div>
+              <div class="right-macarons-text">
+                <img class="heart" src="./images/heart.png" alt="heart" onclick="addto()">
+                <p id="second">212</p>
+              </div>
+            </div>
+          </div>
+          <!-- top right feed end -->
+          <!-- bottom feed start -->
+          <div class="bottom-right-feed">
+            <div>
+              <img class="creme-img" src="./images/creme-brulee.jpg" alt="creme brulee">
+            </div>
+            <div class="second-bottom-container">
+              <div class="creme-brulee-text">
+                <p>Macarons</p>
+                <p>By: <a href="#">MarisaG</a></p>
+              </div>
+              <div class="right-creme-burlee">
+                <img class="heart" src="./images/heart.png" alt="heart" onclick="addtoo()">
+                <p id="third">32</p>
+              </div>
+            </div>
+          </div>
+          <!-- bottom feed end -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>

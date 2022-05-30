@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto ;
+}
+body {
+  background-color: lightblue;
+}
+main {
+  align-items: center;
+  height: 1000px;
+  width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 900px;
+}
+
+.heart {
+  height: 20px;
+  width: 20px;
+}
+
+/* utility start */
+.top-nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.top-nav h1 {
+  color: white;
+  margin-left: 30px;
+}
+.top-nav span {
+  color: #de8807;
+}
+
+.buttons {
+  margin: 10px;
+  position: relative;
+  right: 20px;
+}
+.left {
+  background-color: #ff9900;
+  border: 2px solid black;
+  box-shadow: 4px 4px black ;
+  padding: .5em 1.8em;
+}
+
+.right {
+  color: white;
+  background-color:#085394 ;
+  border: 2px solid black;
+  box-shadow: 4px 4px black ;
+  margin-left: 8px;
+  padding: .5em 1.8em;
+}
+
+.bottom-nav {
+  background-color: #f9cb9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0 ;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  /* bottom nav start */
+.bottom-nav img {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.search {
+  border: solid 1px black;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+  right: 20px;
+}
+
+.search-bar{
+  padding: .5em 1em;
+  border-radius: 25px 0 0 25px
+}
+
+.go {
+  background-color: #085394;
+  border: solid 2px black;
+  padding: .5em 1em;
+  border-radius: 0 25px 25px 0
+}
+.bottom-nav div {
+  text-align: center;
+  margin: 20px;
+}
+  /* bottom nav end */
+/* nav bar end */
+
+/* ig feed start */
+
+/* left feed start */
+.ig-feed {
+  display: flex;
+  text-align: center;
+}
+
+.left-feed {
+  background-color:#eeedef ;
+  flex: 2;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 630px;
+}
+.left-feed h2 {
+  color: #085394;
+  padding: 15px;
+}
+.left-feed .pie {
+  height: 420px;
+  width: 730px;
+}
+.bottom-left-feed {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.inner-left {
+
+  margin-left: 30px;
+  text-align: left;
+}
+
+.inner-right {
+  display: flex;
+  margin-right: 20px;
+}
+/* left feed end */
+
+/* right feed start */
+.right-feed {
+  margin: 20px;
+}
+h3 {
+padding-bottom: 10px;
+  text-align: left;
+  border-bottom: solid 2px black;
+}
+.right-feed div {
+  margin-top: 10px;
+}
+.macarons-img, .creme-img {
+  height: 210px;
+  width: 300px;
+}
+
+.bottom-container{
+display: flex;
+}
+.macarons-text {
+  text-align: left;
+  flex:1;
+}
+
+.right-macarons-text {
+  display: flex;
+}
+
+.second-bottom-container{
+  display: flex;
+  }
+  .creme-brulee-text {
+    text-align: left;
+    flex:1;
+  }
+  
+  .right-creme-burlee {
+    display: flex;
+  }
